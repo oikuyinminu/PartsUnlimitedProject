@@ -59,7 +59,7 @@ stages:
      - task: AzureRmWebAppDeployment@4
        inputs:
          ConnectionType: 'AzureRM'
-         azureSubscription: 'MSDN Platforms Subscription(b0da73fd-801f-442e-adb9-1d602678b82b)'
+         azureSubscription: 'MSDN Platforms Subscription(########-####-####-####-############)'
          appType: 'webApp'
          WebAppName: 'pul-yaml-rafa'
          packageForLinux: '$(System.ArtifactsDirectory)/drop/*.zip'
